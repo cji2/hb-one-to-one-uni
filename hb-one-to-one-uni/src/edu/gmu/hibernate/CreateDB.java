@@ -24,8 +24,12 @@ public class CreateDB {
 		try {
 			/* use the session object to save Java object*/
 			// create an instructor and its detail object.
+			/*
 			Instructor aInstructor = new Instructor("David", "Ji", "david@gmu.edu");
 			InstructorDetail aInstructorDetail = new InstructorDetail("http://www.gmu.edu/youtube", "Full stack web developer!");
+			*/
+			Instructor aInstructor = new Instructor("Abraham", "Lee", "abraham@gmu.edu");
+			InstructorDetail aInstructorDetail = new InstructorDetail("http://www.google.com/youtube", "Back-end web developer!");
 			
 			// associate objects in memory.
 			aInstructor.setInstructorDetail(aInstructorDetail);
